@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_marginTop="80dp"
+    tools:context=".detailActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc_rollno"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:padding="5dp"
+        android:layout_marginLeft="9dp"
+        android:text="Rollno." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc_name"
+        android:text="My name"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:layout_below="@+id/desc_rollno"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc_degree"
+        android:text="Degree"
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:layout_below="@+id/desc_name"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
