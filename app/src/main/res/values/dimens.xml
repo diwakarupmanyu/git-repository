@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="register_heading_marginTop">100dp</dimen>
+    <dimen name="register_heading_size">70sp</dimen>
+
+    <dimen name="input_marginTop">300dp</dimen>
+    <dimen name="input_marginLeft">30dp</dimen>
+    <dimen name="input_marginRight">30dp</dimen>
+    <dimen name="input_gap">10dp</dimen>
+
+    <dimen name="btn_marginLeft">30dp</dimen>
+    <dimen name="btn_marginRight">30dp</dimen>
+    <dimen name="btn_gap">20dp</dimen>
+
+    <dimen name="link_gap">5dp</dimen>
+
+    <dimen name="login_heading_marginTop">120dp</dimen>
+    <dimen name="login_heading_size">70sp</dimen>
+    
+    
+    <dimen name="home_padding">5dp</dimen>
+    <dimen name="home_layoutmarginBottom">65dp</dimen>
+
+
+    <dimen name="fragment_padding">20dp</dimen>
+    <dimen name="fragmentDashboard_MarginTop">4dp</dimen>
+    <dimen name="fagmentDashboard_CardView_Margin">20dp</dimen>
+    <dimen name="fragmentDashboard_CardRadius">5dp</dimen>
+    <dimen name="fragmentDashboard_CardElevation">10dp</dimen>
+    <dimen name="fragmentUsers_MarginTop">10dp</dimen>
+
+    <dimen name="userItem_MarginTop">4dp</dimen>
+    <dimen name="UserItem_CardView_MarginLeft">10dp</dimen>
+    <dimen name="UserItem_CardView_MarginRight">10dp</dimen>
+    <dimen name="UserItem_CardView_MarginBottom">10dp</dimen>
+    <dimen name="UserItem_CardView_Padding">10dp</dimen>
+    <dimen name="UserItem_CardView_cardRadius">4dp</dimen>
+    <dimen name="UserItem_CardView_cardElevation">2dp</dimen>
+
+    <dimen name="UserItem_Linearlayout_padding">10dp</dimen>
+
+
+
+
+</resources>

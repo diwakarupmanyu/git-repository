@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Retrofit</string>
+
+    <string name="register_headingname">Create New Account</string>
+
+    <string name="btnname">Register</string>
+
+    <string name="loginlink_text">Already register! Login here</string>
+
+    <string name="login_headingname">login</string>
+
+    <string name="loginbtn">login</string>
+
+    <string name="registerlink_text">Not Registered! Create new account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

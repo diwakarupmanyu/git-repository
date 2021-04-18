@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_headingname"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/register_heading_marginTop"
+        android:fontFamily="cursive"
+        android:textSize="@dimen/register_heading_size"
+        android:textColor="@color/heading_color"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/namelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginTop="@dimen/input_marginTop"
+        android:layout_marginLeft="@dimen/input_marginLeft"
+        android:layout_marginRight="@dimen/input_marginRight">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emaillayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_below="@+id/namelayout"
+        android:layout_marginTop="@dimen/input_gap"
+        android:layout_marginLeft="@dimen/input_marginLeft"
+        android:layout_marginRight="@dimen/input_marginRight">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="abc@gmail.com"
+            android:inputType="textEmailAddress"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_below="@+id/emaillayout"
+        android:layout_marginTop="@dimen/input_gap"
+        android:layout_marginLeft="@dimen/input_marginLeft"
+        android:layout_marginRight="@dimen/input_marginRight"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/black">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_background"
+        android:textColor="@color/white"
+        android:text="@string/btnname"
+        android:layout_marginTop="@dimen/btn_gap"
+        android:layout_marginLeft="@dimen/btn_marginLeft"
+        android:layout_marginRight="@dimen/btn_marginRight"
+        android:layout_below="@id/passwordlayout"
+       />
+
+    <TextView
+        android:id="@+id/loginlink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnregister"
+        android:layout_marginTop="@dimen/link_gap"
+        android:text="@string/loginlink_text"
+        android:gravity="center_horizontal"/>
+
+
+</RelativeLayout>
