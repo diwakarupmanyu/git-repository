@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="LinearLayout_marginStart">40dp</dimen>
+    <dimen name="LinearLayout_marginTop">40dp</dimen>
+    <dimen name="LinearLayout_marginEnd">40dp</dimen>
+    <dimen name="LinearLayout_marginBottom"></dimen>
+
+    <dimen name="padding">10dp</dimen>
+
+    <dimen name="ImageLogo_height">120dp</dimen>
+    <dimen name="editText_marginStart">20dp</dimen>
+    <dimen name="editText_marginTop">20dp</dimen>
+    <dimen name="editText_marginBottom">25dp</dimen>
+    <dimen name="editText_padding">10dp</dimen>
+    <dimen name="editText_age_Width">100dp</dimen>
+    <dimen name="Button_textSize">18sp</dimen>
+    <dimen name="TextView_textSize">25sp</dimen>
+    <dimen name="showData_Button_marginBottom">50dp</dimen>
+
+    <dimen name="data_detailLayout_textSize">12sp</dimen>
+    <dimen name="data_detailLayout_margin">4dp</dimen>
+    <dimen name="data_detailLayout_width">180dp</dimen>
+
+
+
+</resources>

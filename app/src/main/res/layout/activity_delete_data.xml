@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.DeleteData">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/LinearLayout_marginStart"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="@dimen/LinearLayout_marginEnd"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/deleteId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/editText_marginTop"
+        android:layout_marginBottom="@dimen/editText_marginBottom"
+        android:background="@drawable/editdrawable"
+        android:ems="10"
+        android:hint="Id"
+        android:inputType="textPersonName"
+        android:padding="@dimen/editText_padding" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_gradient"
+            android:text="Delete"
+            android:onClick="delete"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_marginBottom="@dimen/showData_Button_marginBottom"
+            android:textSize="@dimen/Button_textSize"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</RelativeLayout>
