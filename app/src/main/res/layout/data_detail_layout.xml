@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grid_bgColor"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="2dp"
+    app:cardCornerRadius="2dp"
+    android:elevation="2dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/data_detailLayout_margin"
+        android:padding="@dimen/padding"
+        android:layout_marginEnd="@dimen/data_detailLayout_margin"
+        android:layout_marginStart="@dimen/data_detailLayout_margin"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/showId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Id"
+            android:textColor="@color/black"
+            android:textSize="@dimen/data_detailLayout_textSize" />
+
+        <TextView
+            android:id="@+id/showName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/data_detailLayout_textSize"
+            android:layout_marginTop="@dimen/data_detailLayout_margin"/>
+
+        <TextView
+            android:id="@+id/showAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:textSize="@dimen/data_detailLayout_textSize"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/data_detailLayout_margin"/>
+
+        <TextView
+            android:id="@+id/showCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:textSize="@dimen/data_detailLayout_textSize"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/data_detailLayout_margin"/>
+
+        <TextView
+            android:id="@+id/showPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textSize="@dimen/data_detailLayout_textSize"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/data_detailLayout_margin"/>
+
+        <TextView
+            android:id="@+id/showGmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gmail"
+            android:textSize="@dimen/data_detailLayout_textSize"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/data_detailLayout_margin"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/data_detailLayout_margin">
+            <Button
+                android:id="@+id/updateData"
+                android:layout_width="65dp"
+                android:layout_height="40dp"
+                android:text="Update"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="8sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/deleteData"
+                android:layout_width="65dp"
+                android:layout_height="40dp"
+                android:text="Delete"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="8sp"
+                android:textStyle="bold"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+
+</RelativeLayout>

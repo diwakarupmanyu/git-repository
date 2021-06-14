@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.UpdateData">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/LinearLayout_marginStart"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="@dimen/LinearLayout_marginEnd"
+                android:orientation="vertical">
+
+
+
+                <EditText
+                    android:id="@+id/updateName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/editText_marginBottom"
+                    android:background="@drawable/editdrawable"
+                    android:ems="10"
+                    android:hint="Name"
+                    android:inputType="textPersonName"
+                    android:padding="@dimen/editText_padding" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/updateAge"
+                        android:layout_width="@dimen/editText_age_Width"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/editdrawable"
+                        android:layout_marginBottom="@dimen/editText_marginBottom"
+                        android:ems="10"
+                        android:hint="Age"
+                        android:inputType="phone"
+                        android:padding="@dimen/editText_padding" />
+
+                    <EditText
+                        android:id="@+id/updateCity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/editText_marginStart"
+                        android:layout_marginBottom="@dimen/editText_marginBottom"
+                        android:background="@drawable/editdrawable"
+                        android:ems="10"
+                        android:hint="City"
+                        android:padding="@dimen/editText_padding" />
+
+                </LinearLayout>
+
+
+                <EditText
+                    android:id="@+id/updatePhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/editText_marginBottom"
+                    android:background="@drawable/editdrawable"
+                    android:ems="10"
+                    android:hint="+91 1234567890"
+                    android:inputType="phone"
+                    android:padding="@dimen/editText_padding" />
+
+                <EditText
+                    android:id="@+id/updateGmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/editText_marginBottom"
+                    android:background="@drawable/editdrawable"
+                    android:ems="10"
+                    android:hint="hello@gmail.com"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/editText_padding" />
+
+                <EditText
+                    android:id="@+id/updatePassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:background="@drawable/editdrawable"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:padding="@dimen/editText_padding" />
+
+                <Button
+                    android:id="@+id/update"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_gradient"
+                    android:text="Update"
+                    android:onClick="update"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="@dimen/showData_Button_marginBottom"
+                    android:textSize="@dimen/Button_textSize"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>
